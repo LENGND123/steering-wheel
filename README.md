@@ -40,6 +40,14 @@ python3 steering_wheel.py
 
 Press **Q** in the camera window to quit.
 
+### Debug mode
+
+```bash
+python3 steering_wheel.py --debug
+```
+
+This prints detection state and helps confirm whether the script is seeing hands.
+
 ---
 
 ## macOS Setup ⚠️
@@ -54,13 +62,13 @@ This project was built and tested on **macOS (Apple M2)**. On macOS you must gra
 
 ## Windows Setup
 
-The script works on Windows with **one small change**. Open `steering_wheel.py` and find this line:
+The script works on Windows with **one small change** already baked in: it will prefer `cv2.CAP_DSHOW` when available.
 
-```python
-backend = cv2.CAP_AVFOUNDATION if platform.system() == "Darwin" else cv2.CAP_ANY
+If the camera does not open, try a different camera index:
+
+```bash
+python3 steering_wheel.py --camera 1
 ```
-
-This line already auto-detects your OS — **no manual change needed**. On Windows it will automatically use `cv2.CAP_ANY` (DirectShow/MSMF).
 
 **Steps for Windows:**
 
@@ -101,6 +109,8 @@ This line already auto-detects your OS — **no manual change needed**. On Windo
 | Problem | Fix |
 |---------|-----|
 | `[ERROR] Cannot open camera` | Check `CAMERA_INDEX` — try `0`, `1`, `2` |
+| `Wrote test output` but no hands are detected | The default sample image may not contain real hands; try a real photo with both hands visible or use the webcam mode |
+| Steering stays straight | Ensure both hands appear in the webcam frame with good lighting and visible wrist positions |
 | Steering is reversed | Toggle `FLIP_CAMERA = False` in config |
 | Keys stuck after removing hands | Hands must be fully out of frame for ~8 frames |
 | Low FPS / laggy | Lower camera resolution in the script or close other apps |
