@@ -28,15 +28,15 @@ A real-time computer vision project that lets you control a virtual steering whe
 
 ### Hand Detection
 
-![Hand Detection](images/sample_hand.jpg)
+![Hand Detection](sample_hand.jpg)
 
 ### Steering Output
 
-![Steering Output](images/test_output.png)
+![Steering Output](test_output.png)
 
 ### Debug View
 
-![Debug View](images/capture_debug.jpg)
+![Debug View](capture_debug.jpg)
 
 ---
 
