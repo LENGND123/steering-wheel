@@ -1,42 +1,57 @@
 # 🚗 Virtual Steering Wheel
 
-A real-time computer vision project that lets you control a virtual steering wheel using your hand movements.
+A real-time AI-powered Virtual Steering Wheel built using **Python**, **OpenCV**, and **MediaPipe**. Control a virtual steering wheel using hand gestures with smooth steering angle detection, calibration, and a modern dashboard UI.
+
+---
+
+## 🎥 Demo
+
+> 📹 Add your demo GIF or video here
+
+![Demo](images/demo.gif)
+
+*(If you don't have a GIF yet, use a screenshot for now.)*
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](images/test_output.png)
+
+### Hand Detection
+![Hand Detection](images/sample_hand.jpg)
+
+### Debug View
+![Debug](images/capture_debug.jpg)
 
 ---
 
 ## ✨ Features
 
-- ✋ Real-time hand tracking
-- 🚗 Virtual steering wheel
-- 📷 Webcam support
-- ⚡ Fast detection using MediaPipe
-- 🎯 Steering angle calculation
-- 💻 Easy to run
+- 🎯 Real-time hand tracking using MediaPipe
+- 🚗 Virtual steering wheel visualization
+- 📐 Steering angle calculation
+- 📊 Steering percentage indicator
+- ⚡ Live FPS counter
+- 🎛️ Adjustable steering sensitivity
+- 🎨 Modern dashboard UI
+- 🟢 Tracking status badges
+- ⏳ 3-second automatic calibration
+- 🛡️ Camera error handling
+- ⌨️ Keyboard controls
+- 🔍 Debug mode
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - OpenCV
 - MediaPipe
 - NumPy
-
----
-
-## 📷 Demo
-
-### Hand Detection
-
-![Hand Detection](sample_hand.jpg)
-
-### Steering Output
-
-![Steering Output](test_output.png)
-
-### Debug View
-
-![Debug View](capture_debug.jpg)
+- PyAutoGUI
+- Pynput
 
 ---
 
@@ -48,38 +63,34 @@ virtual-steering-wheel/
 ├── images/
 │   ├── capture_debug.jpg
 │   ├── sample_hand.jpg
-│   └── test_output.png
+│   ├── test_output.png
+│   └── demo.gif
 │
 ├── steering_wheel.py
+├── steering_icon.ico
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-└── hand_landmarker.task
+└── LICENSE
 ```
 
 ---
 
-## 🚀 Installation
+## ⚙️ Installation
 
-Clone the repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/LENGND123/steering-wheel.git
-```
-
-Go into the project folder
-
-```bash
 cd steering-wheel
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run
+### Run
 
 ```bash
 python steering_wheel.py
@@ -87,12 +98,24 @@ python steering_wheel.py
 
 ---
 
-## 📌 Requirements
+## 🎮 Controls
 
-- Python 3.10+
-- Webcam
-- MediaPipe
-- OpenCV
+| Key | Action |
+|------|--------|
+| Q | Quit |
+| H | Show Help |
+| R | Recalibrate |
+
+---
+
+## 🚀 Future Improvements
+
+- Better steering physics
+- Game controller emulation
+- More gesture controls
+- Vehicle simulation mode
+- Multi-monitor support
+- Windows executable (.exe)
 
 ---
 
@@ -100,8 +123,14 @@ python steering_wheel.py
 
 **Aditya Raj Singh**
 
-GitHub: https://github.com/LENGND123
+- 💼 Computer Science Engineering Student
+- 🤖 Interested in AI, Computer Vision & Full Stack Development
+
+GitHub:
+https://github.com/LENGND123
 
 ---
 
-⭐ If you found this project helpful, please give it a star!
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
