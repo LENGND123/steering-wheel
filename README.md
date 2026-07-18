@@ -1,30 +1,17 @@
 # 🚗 Virtual Steering Wheel
 
-Control a virtual steering wheel using hand gestures in real time with MediaPipe and OpenCV.
-
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
----
-
-## 📌 Overview
-
-Virtual Steering Wheel is a computer vision project that detects your hands through a webcam and converts your hand movements into steering wheel controls.
-
-This project demonstrates real-time hand tracking using MediaPipe and OpenCV.
+A real-time computer vision project that lets you control a virtual steering wheel using your hand movements.
 
 ---
 
 ## ✨ Features
 
-- 🎮 Virtual steering wheel
 - ✋ Real-time hand tracking
-- 📷 Webcam input
-- ⚡ Fast processing
-- 🖥️ Smooth visualization
-- 🚗 Steering angle calculation
+- 🚗 Virtual steering wheel
+- 📷 Webcam support
+- ⚡ Fast detection using MediaPipe
+- 🎯 Steering angle calculation
+- 💻 Easy to run
 
 ---
 
@@ -37,16 +24,38 @@ This project demonstrates real-time hand tracking using MediaPipe and OpenCV.
 
 ---
 
+## 📷 Demo
+
+### Hand Detection
+
+![Hand Detection](images/sample_hand.jpg)
+
+### Steering Output
+
+![Steering Output](images/test_output.png)
+
+### Debug View
+
+![Debug View](images/capture_debug.jpg)
+
+---
+
 ## 📂 Project Structure
 
+```text
 virtual-steering-wheel/
+│
+├── images/
+│   ├── capture_debug.jpg
+│   ├── sample_hand.jpg
+│   └── test_output.png
 │
 ├── steering_wheel.py
 ├── requirements.txt
 ├── README.md
-├── sample_hand.jpg
-├── capture_debug.jpg
-├── test_output.png
+├── .gitignore
+└── hand_landmarker.task
+```
 
 ---
 
@@ -58,7 +67,7 @@ Clone the repository
 git clone https://github.com/LENGND123/steering-wheel.git
 ```
 
-Move into project
+Go into the project folder
 
 ```bash
 cd steering-wheel
@@ -78,9 +87,12 @@ python steering_wheel.py
 
 ---
 
-## 📷 Demo
+## 📌 Requirements
 
-(Add screenshots below)
+- Python 3.10+
+- Webcam
+- MediaPipe
+- OpenCV
 
 ---
 
@@ -88,9 +100,8 @@ python steering_wheel.py
 
 **Aditya Raj Singh**
 
-GitHub:
-https://github.com/LENGND123
+GitHub: https://github.com/LENGND123
 
 ---
 
-⭐ If you like this project, don't forget to star the repository!
+⭐ If you found this project helpful, please give it a star!
