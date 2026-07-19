@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+
 # 🚗 Virtual Steering Wheel
 
 A real-time AI-powered Virtual Steering Wheel built using **Python**, **OpenCV**, and **MediaPipe**. Control a virtual steering wheel using hand gestures with smooth steering angle detection, calibration, and a modern dashboard UI.
