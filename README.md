@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/demo.gif" alt="Virtual Steering Wheel Demo" width="900">
+  <img src="images/demo.gif" width="700">
 </p>
 
 <h1 align="center">🚗 Virtual Steering Wheel</h1>
