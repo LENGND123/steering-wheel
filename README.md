@@ -59,11 +59,7 @@ The application demonstrates:
 - Dashboard Visualization
 - Adaptive Performance
 
-<p align="center">
-<img src="images/demo.gif" width="850">
-</p>
 
----
 
 # ⚙️ How It Works
 
