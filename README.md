@@ -49,15 +49,15 @@ Control a virtual steering wheel using your hand gestures with smooth steering d
 
 ---
 
-# 🎥 Demo
+## 🎥 Demo
 
-The animation below shows the complete workflow:
+The application demonstrates:
 
-- Calibration
-- Hand Detection
-- Steering Left & Right
-- Live Dashboard
-- Steering Wheel Visualization
+- Automatic Calibration
+- Real-time Hand Tracking
+- Steering Angle Detection
+- Dashboard Visualization
+- Adaptive Performance
 
 <p align="center">
 <img src="images/demo.gif" width="850">
